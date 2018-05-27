@@ -1,4 +1,5 @@
 ---
+# Front matter comment to ensure Jekyll properly reads file.
 ---
 
 *{
@@ -257,16 +258,12 @@ header{
   color:lightseagreen;
 }
 .log{
-  color:khaki
+  color:khaki;
 }
 .c-text{
-  color:peru
+  color:peru;
 }
 .coding{
   font-weight: 400;
-  font-family: "Menlo"
+  font-family: "Menlo";
 }
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
