@@ -11,6 +11,9 @@
   font-weight: normal;
   src: local('Arca Majora 3 Regular'), url('../assets/fonts/ArcaMajora3-Bold.woff') format('woff');
 }
+article img{
+  max-width:100%;
+}
 @font-face {
   font-family: 'ArcaMajora3';
   font-style: normal;
