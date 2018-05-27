@@ -11,5 +11,13 @@
             $("header").removeClass("bg-color");
         }
     });
+    $('body').bind('touchmove', function(e) {
+        var scroll = $(this).scrollTop();
+        if (scroll >= 100) {
+            $("header").addClass("bg-color");
+        }else{
+            $("header").removeClass("bg-color");
+        }
+    });
     $('[data-toggle="tooltip"]').tooltip(); 
 })(jQuery);

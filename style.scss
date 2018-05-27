@@ -126,6 +126,7 @@ header a{
   opacity:0.8;
 }
 header.bg-color{
+  z-index:9;
   background-color: #333;
 }
 header a:hover{
