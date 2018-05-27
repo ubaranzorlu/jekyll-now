@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Hakkımda
+permalink: /hakkimda/
 ---
 
 Some information about you!
