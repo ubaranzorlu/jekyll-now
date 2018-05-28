@@ -1,4 +1,4 @@
-<div id="umut-big" {% if page.title == "Umut Baran ZORLU" %}class="anasayfa"{% endif %}>
+<div id="umut-big" {% if page.title == "Umut Baran ZORLU" %}class="anasayfa"{% endif %} {% if page.image %}style="background-image: url({{ site.baseurl}}{{ page.image }});" {% endif %}>
     <div class="cont">
             <div class="overlay">
                 {{ if page.title-above }}<span class="baslik-ustu">{{ page.title-above }}</span>{{ endif }}
