@@ -11,7 +11,7 @@ layout: default
             <div style="background-image:url('{{ site.baseurl }}{{ post.image }}');" class="featured-image">
               <div class="overlay"><h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2></div></div>
             <div class="container">
-              <p class="post-meta">Umut Baran ZORLU tarafından, {{ post.date | date: '%B %d, %Y' }} tarihinde, <a href="https://maps.google.com/maps?q={{ post.location.latitude }},{{ post.location.longitude }}" target="_blank" alt="{{ post.title }} Lokasyonu">{{ post.location.latitude }}, {{ post.location.longitude }}</a>'den </p>
+              <p class="post-meta">Umut Baran ZORLU - {{ post.date | date: '%B %d, %Y' }} - <a href="https://maps.google.com/maps?q={{ post.location.latitude }},{{ post.location.longitude }}" target="_blank" alt="{{ post.title }} Lokasyonu">{{ post.location.latitude }}, {{ post.location.longitude }}</a> </p>
                 <div class="entry">
                   {{ post.excerpt }}
                 </div>
