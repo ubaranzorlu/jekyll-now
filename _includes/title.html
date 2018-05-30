@@ -4,7 +4,7 @@
                 {{ if page.title-above }}<span class="baslik-ustu">{{ page.title-above }}</span>{{ endif }}
                 <h1 class="sayfa-basligi">{{ page.title }}</h1>
                 {{ if page.excerpt }}<div class="sayfa-ozeti"><p>{{ page.excerpt | remove: '<p>' | remove: '</p>' }}</p></div>{{ endif }}
-                {% include nav-breadcrumbs.html %}
+                {% include breadcrumbs %}
             </div>
     </div>
 </div>

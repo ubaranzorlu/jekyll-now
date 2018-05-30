@@ -171,6 +171,10 @@ header a:hover{
   text-align:center;
   display: inline;
 }
+.breadcrumb a{
+  color:#fff;
+  font-weight: 600;
+}
 .breadcrumbs{
   text-align:center!important;
 }
@@ -364,7 +368,7 @@ article.post.listing{
 }
 .overlay{
   width:100%;
-  padding:200px 20px 100px 20px;
+  padding:200px 20px 60px 20px;
   background-color: rgba(0,0,0,0.5);
 }
 .console{
