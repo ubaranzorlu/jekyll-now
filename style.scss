@@ -317,6 +317,7 @@ header{
   padding:20px;
 }
 .post-meta{
+  margin-top:-1em;
   font-size:.9rem;
   color: rgba(0,0,0,.3);
 }
@@ -361,6 +362,25 @@ article.post, article.page{
     height:100%;
     border-radius:10px;
     background-color: rgba(0,0,0,0.15);
+  }
+}
+.pagination{
+  a{
+    color: rgba(0,0,0,0.7);
+    &:hover{
+      color: rgba(0,0,0,0.9);
+    }
+  }
+  color: rgba(0,0,0,0.7);
+  padding:0px 2em;
+  .previous{
+    float:right;
+  }
+  .next{float:left;}
+  .page_number{
+    display:block;
+    text-align:center;
+    width:100%;
   }
 }
 article.post.listing{
