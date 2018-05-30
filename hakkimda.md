@@ -2,6 +2,7 @@
 layout: page
 title: Hakkımda
 permalink: /hakkimda/
+image: /images/umut-baran-zorlu-bogazici-bilisim-odulleri.jpg
 ---
 
 Some information about you!
