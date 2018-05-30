@@ -53,6 +53,7 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
+paginate: 5
 
 permalink: /:categories/:title/
 
@@ -81,6 +82,7 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-maps
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
