@@ -87,9 +87,35 @@
 
     {% include analytics.html %}
 
-    <script async src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
     <script async src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script>
     <script async src="{{ site.baseurl }}/assets/js/script.js"></script>
-
+    <script async>
+        $(document).ready(()=>{
+            $('#iletisim').submit(()=>{
+              $('#sonuc').html('<div class="loader" style="margin:0 auto;"></div>');
+                $.ajax({
+                    type: 'POST',
+                    url: 'http://server.baranzorlu.com/post.php',
+                    data: $('#iletisim').serialize(),
+                    success: function(data)
+                    {
+                        if(data == "ok"){
+                          $('#sonuc').html('<div class="alert alert-success" role="alert">Mesajınız başarıyla gönderilmiştir!</div>');
+                        }else{
+                          console.log(data);
+                          $('#sonuc').html('<div class="alert alert-info" role="alert">Bir hata oluştu! Lütfen benimle başka bir yol ile iletişime geçin. <b>Hata Kodu: ' + data +'</b></div>');
+                        }
+                    },
+                    error: function(error){
+                      console.log(error);
+                      $('#sonuc').html('<div class="alert alert-warning" role="alert">Bir hata oluştu! Lütfen benimle başka bir yol ile iletişime geçin. <b>Hata Kodu: ' + error +'</b></div>');
+                    }
+                    
+                });
+                return false;
+            });
+        });
+    </script>
   </body>
 </html>
