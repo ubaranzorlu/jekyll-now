@@ -41,7 +41,8 @@
                       <a href="{{ site.baseurl }}/">BLOG</a>
                       <a href="{{ site.baseurl }}/hakkimda">HAKKIMDA</a>
                       <a href="{{ site.baseurl }}/portfolio">PORTFOLYO</a>
-                      <a href="{{ site.baseurl }}/cv" target="_blank">CV</a>
+                      <a href="{{ site.baseurl }}/cv">CV</a>
+                        
                       <a href="{{ site.baseurl }}/iletisim" data-toggle="tooltip" data-placement="bottom" title="Adım Garavel değil, ama yine de beni bulman gerekiyorsa tıkla!">İLETİŞİM</a>
                     </nav>
               </div>
@@ -67,7 +68,7 @@
 
     <div id="instafeed">
         <div class="followme">
-          <a href="https://instagram.com/ubz.rocks">
+          <a href="https://instagram.com/ubaranzorlu">
             <span class="insta_username"></span>
             <img src="" class="profilepic" alt="">
             <div class="img-overlay"><i class="fab fa-instagram"></i></div>
@@ -100,6 +101,9 @@
     <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
     <script async src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script>
     <script async src="{{ site.baseurl }}/assets/js/instafeed.min.js"></script>
+    <script async src="{{ site.baseurl }}/assets/js/jquery.colorbox-min.js"></script>
     <script async src="{{ site.baseurl }}/assets/js/script.js"></script>
+    {% if page.js %} <script src="{{ site.baseurl }}/assets/js/js.cookie.js"></script>
+    <script async src="{{ site.baseurl }}/assets/js/{{ page.js }}.js"></script> {% endif%}
   </body>
 </html>

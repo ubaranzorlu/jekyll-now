@@ -51,6 +51,8 @@
         $('.insta_username').html('@' + data.user.username);
       });
       
+      $('a.cBoxElement').colorbox({rel:'group2', transition:"fade", height: "90%"});
+
 })(jQuery);
 var feed = new Instafeed({
     get: 'user',
