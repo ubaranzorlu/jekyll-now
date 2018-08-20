@@ -6,7 +6,7 @@
     "email": "umut@baranzorlu.com",
     "phone": "+90 543 297 66 28",
     "website": "https://baranzorlu.com",
-    "summary": "Application Manager at guttobizLAB",
+    "summary": "Executive Software Development at guttobizLAB",
     "location": {
       "address": "Boğaziçi Üniversitesi Hisar Kampüsü",
       "postalCode": "34342",
@@ -42,10 +42,10 @@
   },
   "work": [{
     "company": "guttobizLAB",
-    "position": "Software Developer & Application Manager",
+    "position": "Executive Software Development",
     "website": "https://guttobizlab.org",
     "startDate": "2018-03-01",
-    "summary": "Working as software developer & application manager"
+    "summary": "I've been working on the latest product of us \"Comparisonator \""
   },{
     "company": "Hackquarters",
     "position": "Pioneers Program Alpha",
