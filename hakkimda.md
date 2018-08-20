@@ -16,7 +16,9 @@ Tabii, öncelikle sizlere sihirbazı tanıtmam gerekiyor... Biraz müziği herke
 
 <a class="group1 cBoxElement" href="{{ site.baseurl }}/images/umut-baran-zorlu-drum.png" title="Beşiktaş Anadolu Lisesi, 2016"><img src="{{ site.baseurl }}/images/umut-baran-zorlu-drum.png" align="left" class="left-media" alt="Beşiktaş Anadolu Lisesi, 2016" /></a>
 # Umut Baran ZORLU
+<div style="height:50px;">
 {{ 'now' | date: "%Y" | minus:1999 }} yaşında, İstanbul aşığı bir <span href="" class="typewrite" data-period="2000" data-type='[ "sihirbaz", "yazılımcıy", "girişimciy", "pazarlamacıy", "yöneticiy", "öğretmen", "kovalayıcıy" ]'><span class="wrap"></span></span>ım.
+</div>
 
 Nereden başlasam bilemiyorum, bilgisayarlarla olan serüvenim, dayımın beni bilgisayarın başına oturtup kendi internet sitemi yapabileceğimi söylemesiyle başladı.
 
