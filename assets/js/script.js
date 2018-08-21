@@ -50,8 +50,6 @@
         $('.profilepic').attr('src', data.user.profile_pic_url);
         $('.insta_username').html('@' + data.user.username);
       });
-      
-      $('a.cBoxElement').colorbox({rel:'group2', transition:"fade", height: "90%"});
 
 })(jQuery);
 var feed = new Instafeed({
