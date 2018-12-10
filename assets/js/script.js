@@ -50,6 +50,13 @@
         $('.profilepic').attr('src', data.user.profile_pic_url);
         $('.insta_username').html('@' + data.user.username);
       });
+      $.getJSON('https://api.instagram.com/v1/users/self/media/recent/?access_token=7256942347.5c4e5a5.fe801f40b5b04564a9a412ecc6ea3ca8',(data) => { 
+      $.getJSON(data.data[0].link + '?__a=1', image => {
+          console.log(image);
+            $('#umut-big.anasayfa').css('background-image', 'url(' + image.graphql.shortcode_media.display_url + ')');
+        });
+      });
+
 
 })(jQuery);
 var feed = new Instafeed({
